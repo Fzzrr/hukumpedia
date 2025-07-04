@@ -12,19 +12,44 @@ def extract_bab_pasal_from_pdf(pdf_path):
 
     # Pecah teks berdasarkan BAB
     parts = pattern_bab.split(full_text)
-    # Hasil split akan jadi list dengan pola [teks sebelum bab, BAB1, teks bab1, BAB2, teks bab2, ...]
+    # Hasil split: [teks sebelum bab, BAB1, teks bab1, BAB2, teks bab2, ...]
 
     data = []
     for i in range(1, len(parts), 2):
-        bab_title = parts[i].strip()
+        bab_title = parts[i].strip().upper()
         bab_text = parts[i+1].strip()
 
-        # Pecah bab_text berdasarkan Pasal
-        pasal_parts = pattern_pasal.split(bab_text)
+        # Ambil judul bab: baris pertama non-kosong SETELAH baris pertama
+        lines = bab_text.splitlines()
+        judul_bab = ""
+        found_judul = False
+        for idx, line in enumerate(lines):
+            # Lewati baris kosong di awal
+            if not line.strip():
+                continue
+            # Baris pertama non-kosong dianggap judul bab
+            judul_bab = line.strip()
+            found_judul = True
+            pasal_start_idx = idx + 1
+            break
+        # Jika tidak ditemukan judul, kosongkan
+        if not found_judul:
+            judul_bab = ""
+            pasal_start_idx = 0
+        # Jika judul bab sama dengan nama bab, kosongkan
+        if judul_bab.upper() == bab_title:
+            judul_bab = ""
+
+        # Gabungkan kembali teks pasal mulai dari pasal_start_idx
+        pasal_text = "\n".join(lines[pasal_start_idx:]) if found_judul else bab_text
+
+        # Pecah pasal
+        pasal_parts = pattern_pasal.split(pasal_text)
         # pola pasal_parts: [teks sebelum pasal, Pasal1, teks pasal1, Pasal2, teks pasal2, ...]
 
         bab_entry = {
             "bab": bab_title,
+            "judul": judul_bab,
             "pasal_list": []
         }
 

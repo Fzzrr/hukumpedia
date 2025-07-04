@@ -1,19 +1,22 @@
 [
     {
-        "bab": "bab i",
+        "bab": "BAB I",
+        "judul": "tu,",
         "pasal_list": []
     },
     {
         "bab": "BAB I",
+        "judul": "BENTUK DAN KEDAULATAN",
         "pasal_list": [
             {
                 "pasal": "Pasal 1",
-                "teks": "(1) Negara Indonesia ialah Negara Kesatuan, yang berbentuk Republik. (2) Kedaulatan adalah di tangan rakyat, dan dilakukan sepenuhnya oleh Majelis Permusyawaratan Rakyat."
+                "teks": "(1) Negara Indonesia ialah Negara Kesatuan, yang berbentuk Republik. (2) Kedaulatan adalah di tangan rakyat, dan dilakukan sepenuhnya oleh Majelis Permusyawaratan Rakyat. www.peraturan.go.id"
             }
         ]
     },
     {
         "bab": "BAB II",
+        "judul": "MAJELIS PERMUSYAWARATAN RAKYAT",
         "pasal_list": [
             {
                 "pasal": "Pasal 2",
@@ -27,6 +30,7 @@
     },
     {
         "bab": "BAB III",
+        "judul": "KEKUASAAN PEMERINTAHAN NEGARA",
         "pasal_list": [
             {
                 "pasal": "Pasal 4",
@@ -58,7 +62,7 @@
             },
             {
                 "pasal": "Pasal 11",
-                "teks": "Presiden dengan persetujuan Dewan Perwakilan Rakyat menyatakan perang, membuat perdamaian dan perjanjian dengan negara lain."
+                "teks": "Presiden dengan persetujuan Dewan Perwakilan Rakyat menyatakan perang, membuat perdamaian dan perjanjian dengan negara lain. www.peraturan.go.id"
             },
             {
                 "pasal": "Pasal 12",
@@ -80,6 +84,7 @@
     },
     {
         "bab": "BAB IV",
+        "judul": "DEWAN PERTIMBANGAN AGUNG",
         "pasal_list": [
             {
                 "pasal": "Pasal 16",
@@ -89,15 +94,17 @@
     },
     {
         "bab": "BAB V",
+        "judul": "KEMENTERIAN NEGARA",
         "pasal_list": [
             {
                 "pasal": "Pasal 17",
-                "teks": "(1) Presiden dibantu oleh menteri-menteri negara. (2) Menteri-menteri itu diangkat dan diperhentikan oleh Presiden. (3) Menteri-menteri itu memimpin departemen pemerintah."
+                "teks": "(1) Presiden dibantu oleh menteri-menteri negara. (2) Menteri-menteri itu diangkat dan diperhentikan oleh Presiden. (3) Menteri-menteri itu memimpin departemen pemerintah. www.peraturan.go.id"
             }
         ]
     },
     {
         "bab": "BAB VI",
+        "judul": "PEMERINTAH DAERAH",
         "pasal_list": [
             {
                 "pasal": "Pasal 18",
@@ -107,6 +114,7 @@
     },
     {
         "bab": "BAB VII",
+        "judul": "DEWAN PERWAKILAN RAKYAT",
         "pasal_list": [
             {
                 "pasal": "Pasal 19",
@@ -122,12 +130,13 @@
             },
             {
                 "pasal": "Pasal 22",
-                "teks": "(1) Dalam hal ihwal kegentingan yang memaksa, Presiden berhak menetapkan peraturan pemerintah sebagai pengganti undang-undang. (2) Peraturan pemerintah itu harus mendapat persetujuan Dewan Perwakilan Rakyat dalam persidangan yang berikut. (3) Jika tidak mendapat persetujuan, maka peraturan pemerintah itu harus dicabut."
+                "teks": "(1) Dalam hal ihwal kegentingan yang memaksa, Presiden berhak menetapkan peraturan pemerintah sebagai pengganti undang-undang. (2) Peraturan pemerintah itu harus mendapat persetujuan Dewan Perwakilan Rakyat dalam persidangan yang berikut. (3) Jika tidak mendapat persetujuan, maka peraturan pemerintah itu harus dicabut. www.peraturan.go.id"
             }
         ]
     },
     {
         "bab": "BAB VIII",
+        "judul": "HAL KEUANGAN",
         "pasal_list": [
             {
                 "pasal": "Pasal 23",
@@ -137,6 +146,7 @@
     },
     {
         "bab": "BAB IX",
+        "judul": "KEKUASAAN KEHAKIMAN",
         "pasal_list": [
             {
                 "pasal": "Pasal 24",
@@ -150,10 +160,11 @@
     },
     {
         "bab": "BAB X",
+        "judul": "WARGA NEGARA",
         "pasal_list": [
             {
                 "pasal": "Pasal 26",
-                "teks": "(1) Yang menjadi warga negara ialah orang-orang bangsa Indonesia asli dan orang-orang bangsa lain yang disahkan dengan undang-undang sebagai warga negara. (2) Syarat-syarat yang mengenai kewarganegaraan ditetapkan dengan undang-undang."
+                "teks": "(1) Yang menjadi warga negara ialah orang-orang bangsa Indonesia asli dan orang-orang bangsa lain yang disahkan dengan undang-undang sebagai warga negara. (2) Syarat-syarat yang mengenai kewarganegaraan ditetapkan dengan undang-undang. www.peraturan.go.id"
             },
             {
                 "pasal": "Pasal 27",
@@ -167,6 +178,7 @@
     },
     {
         "bab": "BAB XI",
+        "judul": "A G A M A",
         "pasal_list": [
             {
                 "pasal": "Pasal 29",
@@ -176,6 +188,7 @@
     },
     {
         "bab": "BAB XII",
+        "judul": "PERTAHANAN NEGARA",
         "pasal_list": [
             {
                 "pasal": "Pasal 30",
@@ -185,6 +198,7 @@
     },
     {
         "bab": "BAB XIII",
+        "judul": "P E N D I D I K A N",
         "pasal_list": [
             {
                 "pasal": "Pasal 31",
@@ -198,6 +212,7 @@
     },
     {
         "bab": "BAB XIV",
+        "judul": "KESEJAHTERAAN SOSIAL",
         "pasal_list": [
             {
                 "pasal": "Pasal 33",
@@ -211,19 +226,21 @@
     },
     {
         "bab": "BAB XV",
+        "judul": "BENDERA DAN BAHASA",
         "pasal_list": [
             {
                 "pasal": "Pasal 35",
-                "teks": "Bendera Negara Indonesia ialah Sang Merah Putih."
+                "teks": "Bendera Negara Indonesia ialah Sang Merah Putih. Bahasa Negara ialah Bahasa Indonesia."
             },
             {
                 "pasal": "Pasal 36",
-                "teks": "Bahasa Negara ialah Bahasa Indonesia."
+                "teks": ""
             }
         ]
     },
     {
         "bab": "BAB XVI",
+        "judul": "PERUBAHAN UNDANG-UNDANG DASAR",
         "pasal_list": [
             {
                 "pasal": "Pasal 37",
